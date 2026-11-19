@@ -4,12 +4,17 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009485?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Electron](https://img.shields.io/badge/Electron-35-2F3246?logo=electron&logoColor=white)](https://www.electronjs.org/)
 [![Licencia: MIT](https://img.shields.io/badge/License-MIT-6d8768.svg)](LICENSE)
+[![Demo en vivo](https://img.shields.io/badge/Live-Demo-2ea043?style=flat-square)](http://185.34.101.41:8000)
 
 **Un escritorio de IA autoalojado con aspecto hecho a mano, no por una plantilla.**
 
 RelAİ es un servidor central de IA con una interfaz web cálida y artesanal y un cliente de escritorio Electron. Ejecuta modelos locales de [Ollama](https://ollama.com/), busca en la web cuando una pregunta necesita datos reales, lee tus archivos y mantiene chats, usuarios, roles y estadísticas de administración en un mismo lugar tranquilo.
 
 > Documentación: [Türkçe](README.tr.md) · [English](README.md) · **Español**
+
+**Demo en vivo → <http://185.34.101.41:8000>**
+
+El registro está abierto. SMTP no está configurado a propósito en la demo, así que el código de verificación de 6 dígitos aparece en la pantalla de registro; úsalo para verificar tu cuenta y entrar al instante.
 
 ---
 
