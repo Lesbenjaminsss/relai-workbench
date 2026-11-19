@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Yerel veri ve sırlar / Local data and secrets / Datos y secretos locales
+server/data/
+server/smtp.json
+desktop/config.json
+discord-bot/config.json
+discord-bot/data/
+discord-bot/ffmpeg/
+*.db
+*.key
+.env
+*.pfx
+*.pem
+
+# Dağıtım artıkları / Deployment leftovers
+vps-backup/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

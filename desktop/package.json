@@ -1,0 +1,27 @@
+{
+  "name": "relai-client",
+  "version": "1.1.0",
+  "description": "RelAİ masaustu istemcisi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.whitebilisim.relai",
+    "productName": "RelAİ",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    },
+    "files": ["main.js", "config.json", "error.html"]
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.18.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "token":  "PASTE_YOUR_BOT_TOKEN_HERE",
+    "command_prefix":  "!",
+    "owner_ids":  [
+
+                  ],
+    "welcome_channel_id":  null,
+    "welcome_role_id":  null,
+    "log_channel_id":  null,
+    "ticket_category_id":  null,
+    "ai_api_key":  null,
+    "ai_model":  "gpt-4o-mini",
+    "ai_channels":  [
+
+                    ],
+    "level_role_rewards":  {
+                               "5":  0,
+                               "10":  0,
+                               "25":  0
+                           },
+    "automod":  {
+                    "enabled":  true,
+                    "banned_words":  [
+                                         "kÃ¼fÃ¼r1",
+                                         "kÃ¼fÃ¼r2"
+                                     ],
+                    "block_links":  true,
+                    "block_invites":  true,
+                    "max_mentions":  5,
+                    "spam_limit":  5
+                },
+    "music":  {
+                  "ffmpeg_path":  "C:\\DiscordBot\\ffmpeg\\ffmpeg.exe"
+              }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head><meta charset="UTF-8"><title>Bağlantı hatası</title>
+<style>
+body { background:#0f1117; color:#e7e9ee; font-family:Segoe UI,sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; text-align:center; }
+.card { padding:40px; }
+h1 { color:#ff5c72; }
+code { background:#1e222e; padding:4px 8px; border-radius:6px; }
+</style></head>
+<body>
+<div class="card">
+  <h1>⚠️ Sunucuya bağlanılamadı</h1>
+  <p>AI sunucusu çalışmıyor veya adres yanlış.</p>
+  <p>Kontrol edin: <code id="url"></code></p>
+  <p>Sunucuyu başlatın, sonra uygulamayı yeniden open.</p>
+  <button onclick="location.reload()" style="padding:10px 18px;border:none;border-radius:8px;background:#6c8cff;color:white;cursor:pointer">Tekrar dene</button>
+</div>
+<script>
+fetch('config.json').then(r=>r.json()).then(c=>document.getElementById('url').textContent=c.serverUrl).catch(()=>{});
+</script>
+</body>
+</html>

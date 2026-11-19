@@ -1,0 +1,8 @@
+{
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "security": "starttls",
+  "username": "SIZIN_EPOSTANIZ@gmail.com",
+  "password": "GMAIL_APP_SIFRESI",
+  "from": "RelAI <SIZIN_EPOSTANIZ@gmail.com>"
+}
